@@ -1,4 +1,7 @@
 # CHVD-Exile-Updated
+
+![grafik](https://github.com/ELRabito/CHVD-Exile-Updated/assets/39779934/1a8765c5-977f-4697-9370-b03523a1af53)
+
 CHVD Viewdistance script Updated and tweaked for Exile.
 This is repository for saving the old CHVD View Distance Script (Arma 3) Scripted version.
 I updated and tweaked it slightly (added min & max values etc) and fixed some bugs. 
@@ -28,3 +31,8 @@ CHVD_minGrid = 25;
 ```
 
 4. Add/merge the "stringtable.xml" to your mission folder. (If you don't have one, just put it into the mission root).
+
+5. To open the CHVD dialog add this code to your button (Xm8 etc) or use the keybinds.
+```
+call CHVD_fnc_openDialog
+```
