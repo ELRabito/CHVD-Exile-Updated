@@ -42,5 +42,5 @@ call CHVD_fnc_openDialog
 
 Other: If you want to remove the Exile part and use it without Exile just remove the lines with the ExileClient_gui_toaster_addTemplateToast calls inside fn_keyDown & fn_keyDownTerrain.
 These are only for the info toast if you use the CHVD keybinds to change viewdistance/terrain grid. 
-- https://github.com/ELRabito/CHVD-Exile-Updated/blob/main/CHVD/fn_keyDown.sqf#L59C1-L59C3
-- https://github.com/ELRabito/CHVD-Exile-Updated/blob/main/CHVD/fn_keyDownTerrain.sqf#L43
+1 - https://github.com/ELRabito/CHVD-Exile-Updated/blob/main/CHVD/fn_keyDown.sqf#L59C1-L59C3
+2 - https://github.com/ELRabito/CHVD-Exile-Updated/blob/main/CHVD/fn_keyDownTerrain.sqf#L43
