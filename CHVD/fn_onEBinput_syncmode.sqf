@@ -1,0 +1,17 @@
+params [["_textBoxCtrl",controlNull],["_varString",""],["_sliderCtrl",controlNull],["_sliderTextboxCtrl",controlNull]];
+private _inputValue = [ctrlText _textBoxCtrl, "0123456789"] call BIS_fnc_filterString;
+_inputValue = if (_inputValue == "") then {1} else {call compile _inputValue min 100 max 1};
+_textBoxCtrl ctrlSetText (str _inputValue + "%");
+private _percentageVar = "RW_" + _varString + "SyncPercentage";
+private _percentage = _inputValue / 100;
+call compile format ["%1 = %2", _percentageVar, _percentage];
+call compile format ["profileNamespace setVariable ['%1',%1]", _percentageVar];
+private _viewDistVar = "RW_" + _varString;
+private _viewDist = call compile _viewDistVar;
+private _objVDVar = "RW_" + _varString + "Obj";
+private _objVD = (_viewDist * _percentage) min CHVD_maxObj max CHVD_minObj;
+sliderSetPosition [_sliderCtrl, _objVD];
+ctrlSetText [_sliderTextboxCtrl, str round _objVD];
+call compile format ["%1 = %2", _objVDVar, _objVD];
+call compile format ["profileNamespace setVariable ['%1',%1]", _objVDVar];
+[2] call CHVD_fnc_updateSettings;
