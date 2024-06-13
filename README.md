@@ -24,7 +24,7 @@ CHVD_maxView = 2400; // Max Viewdistance
 CHVD_minView = 1000; // Min Viewdistance
 CHVD_maxObj = 2400; // Max Object Viewdistance
 CHVD_minObj = 1000; // Min Object Viewdistance
-// Available options 3.125 / 6.25 / 12.5 / 25 / 50 - (Highest 3.125 (Best Quality) - Lowest 50 (Worst Quality aka "No Grass"))
+// Terrain Quality: Available options 3.125 / 6.25 / 12.5 / 25 / 50 - (Highest 3.125 (Best Quality) - Lowest 50 (Worst Quality aka "No Grass"))
 CHVD_maxGrid = 3.125;
 CHVD_minGrid = 25;
 ////
