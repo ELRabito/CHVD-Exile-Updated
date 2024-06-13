@@ -40,3 +40,6 @@ call CHVD_fnc_openDialog
 ```
 ![grafik](https://github.com/ELRabito/CHVD-Exile-Updated/assets/39779934/0c7c0197-f0f0-4150-aef2-ea1759834d38)
 
+Other: If you want to remove the Exile part and use it without Exile just remove the lines with the ExileClient_gui_toaster_addTemplateToast calls inside fn_keyDown & fn_keyDownTerrain.
+* https://github.com/ELRabito/CHVD-Exile-Updated/blob/main/CHVD/fn_keyDown.sqf#L59C1-L59C3
+* https://github.com/ELRabito/CHVD-Exile-Updated/blob/main/CHVD/fn_keyDownTerrain.sqf#L43
