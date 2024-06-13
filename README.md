@@ -34,7 +34,7 @@ CHVD_minGrid = 25;
 
 4. Add/merge the "stringtable.xml" to your mission folder. (If you don't have one, just put it into the mission root).
 
-5. To open the CHVD dialog add this code to your button/script (Xm8 etc) or use the standard keybinds.
+5. To open the CHVD dialog add this code to your button/script (Xm8 etc) or use/bind the keybinds.
 ```
 call CHVD_fnc_openDialog
 ```
