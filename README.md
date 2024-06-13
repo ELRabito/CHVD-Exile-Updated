@@ -3,9 +3,8 @@ CHVD Viewdistance script Updated and tweaked for Exile.
 This is repository for saving the old CHVD View Distance Script (Arma 3) Scripted version.
 I updated and tweaked it slightly (added min & max values etc) and fixed some bugs. 
 
-1. Place "CHVD" folder in your mission folder.
-
-2. Add this code to description.ext file in your mission folder:
+1. Place the "CHVD" folder in your mission folder.
+2. Add/merge this to your description.ext file in your mission folder.
 ```
 #include "CHVD\dialog.hpp"
 class CfgFunctions
