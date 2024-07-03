@@ -41,10 +41,10 @@ call CHVD_fnc_openDialog
 ```
 ![grafik](https://github.com/ELRabito/CHVD-Exile-Updated/assets/39779934/0c7c0197-f0f0-4150-aef2-ea1759834d38)
 
+* If you use Infistar add the IDD 2900 to your allowedIDDs inside EXILE_AHAT_CONFIG.
+
 * If you want to remove the Exile part and use it without Exile just remove/replace the lines with the ExileClient_gui_toaster_addTemplateToast calls inside fn_keyDown & fn_keyDownTerrain.
 These are only for the Exile Info toast if you use the CHVD keybinds to change viewdistance/terrain grid as seen in the screenshot.
-
-* If you use Infistar add the IDD 2900 to your allowedIDDs inside EXILE_AHAT_CONFIG.
 
 1 - https://github.com/ELRabito/CHVD-Exile-Updated/blob/main/CHVD/fn_keyDown.sqf#L59C1-L59C3
 
