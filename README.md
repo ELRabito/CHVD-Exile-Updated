@@ -5,7 +5,7 @@
 CHVD Viewdistance script Updated and tweaked for Exile.
 This is repository for saving the old CHVD View Distance Script (Arma 3) Scripted version.
 I updated and tweaked it slightly (added configurable min & max values etc) and fixed some bugs.
-I recommend to use this version with minimum values since you can abuse the told version.
+I recommend to use this version with minimum values since you can abuse the old version.
 
 Original: https://forums.bohemia.net/forums/topic/175757-ch-view-distance-addon/
 
